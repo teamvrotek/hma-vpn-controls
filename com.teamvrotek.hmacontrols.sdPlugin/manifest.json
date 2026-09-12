@@ -1,0 +1,42 @@
+{
+  "$schema": "https://schemas.elgato.com/streamdeck/plugins/manifest.json",
+  "UUID": "com.teamvrotek.hmacontrols",
+  "Name": "HMA VPN Controls",
+  "Version": "1.0",
+  "Author": "VROTEK OÜ",
+  "Description": "Control HMA (HideMyAss) VPN on your Mac from one Stream Deck key. Press to connect or disconnect the VPN. Configure a long press to request a new IP in the current country or connect to the next country in your list. The key follows HMA’s connection status and can display the connected country’s flag, even when HMA’s main window is closed.",
+  "Category": "HMA VPN Controls",
+  "CategoryIcon": "imgs/categoryIcon",
+  "Icon": "imgs/pluginIcon",
+  "CodePath": "plugin.js",
+  "PropertyInspectorPath": "ui/property-inspector.html",
+  "SDKVersion": 3,
+  "Nodejs": {
+    "Version": "20"
+  },
+  "Software": {
+    "MinimumVersion": "6.9"
+  },
+  "OS": [
+    {
+      "Platform": "mac",
+      "MinimumVersion": "13"
+    }
+  ],
+  "Actions": [
+    {
+      "UUID": "com.teamvrotek.hmacontrols.control",
+      "Name": "VPN control",
+      "Icon": "imgs/actionIcon",
+      "PropertyInspectorPath": "ui/property-inspector.html",
+      "SupportedInMultiActions": false,
+      "Tooltip": "Press to turn HMA VPN on or off. Hold to perform your chosen action.",
+      "States": [
+        {
+          "Image": "imgs/actionDefaultImage",
+          "ShowTitle": false
+        }
+      ]
+    }
+  ]
+}

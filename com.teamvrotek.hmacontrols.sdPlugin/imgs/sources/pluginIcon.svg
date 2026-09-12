@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 144 144"><rect width="144" height="144" rx="27" fill="#191C21"/><title>HMA on</title><g data-layout="centered" transform="translate(0 8)"><g data-art="donkey">
+        <path d="M44 67C33 52 26 23 33 13C42 1 57 17 61 48L59 63Z" fill="#F5EDDE"/>
+        <path d="M43 47C38 34 36 20 39 19C44 19 49 32 51 47Z" fill="#191C21"/>
+        <path d="M83 48C87 19 99 4 108 12C118 21 109 50 101 67L84 63Z" fill="#F5EDDE"/>
+        <path d="M94 47C97 32 102 20 106 19C109 22 103 39 100 47Z" fill="#191C21"/>
+        <path d="M42 53C46 43 58 40 72 40C88 40 100 44 103 57L109 82C114 99 101 117 73 119C45 118 30 103 35 83Z" fill="#F5EDDE"/>
+        <path d="M61 42L60 34L71 39L78 31L80 40L90 37L85 49L78 45L71 51L67 44Z" fill="#191C21"/>
+        <ellipse cx="55" cy="67" rx="4" ry="6" fill="#191C21"/>
+        <ellipse cx="89" cy="67" rx="4" ry="6" fill="#191C21"/>
+        <path d="M51 83C59 79 86 79 94 83C100 86 104 94 102 103C98 115 47 115 42 103C40 94 45 86 51 83Z" fill="#F5EDDE" stroke="#191C21" stroke-width="4"/>
+        <ellipse cx="57" cy="94" rx="3.2" ry="4.5" transform="rotate(-22 57 94)" fill="#191C21"/>
+        <ellipse cx="87" cy="94" rx="3.2" ry="4.5" transform="rotate(22 87 94)" fill="#191C21"/>
+        <path d="M63 105Q72 109 81 105" fill="none" stroke="#191C21" stroke-width="3.5" stroke-linecap="round"/>
+    </g><g data-art="mask" data-mask="sunglasses" data-motion="down" transform="translate(0 0.00)" opacity="1.000"><path d="M38 60L45 62M99 62L106 60M66 64Q72 60 78 64" fill="none" stroke="#191C21" stroke-width="5" stroke-linecap="round"/>
+            <path d="M42 58Q54 56 68 60L67 72Q66 81 55 82Q44 81 43 72Z" fill="#191C21"/>
+            <path d="M76 60Q90 56 102 58L101 72Q100 81 89 82Q78 81 77 72Z" fill="#191C21"/>
+            <path d="M47 62L57 61L47 71ZM82 63L93 61L82 73Z" fill="#F5EDDE" opacity=".42"/></g></g></svg>

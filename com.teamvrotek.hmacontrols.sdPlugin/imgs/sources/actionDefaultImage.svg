@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="144" height="144" viewBox="0 0 144 144" role="img" aria-label="HMA off"><title>HMA off</title><rect width="144" height="144" fill="#101111"/><g data-layout="centered" transform="translate(0 8)"><g data-art="donkey">
+        <path d="M44 67C33 52 26 23 33 13C42 1 57 17 61 48L59 63Z" fill="#F5EDDE"/>
+        <path d="M43 47C38 34 36 20 39 19C44 19 49 32 51 47Z" fill="#101111"/>
+        <path d="M83 48C87 19 99 4 108 12C118 21 109 50 101 67L84 63Z" fill="#F5EDDE"/>
+        <path d="M94 47C97 32 102 20 106 19C109 22 103 39 100 47Z" fill="#101111"/>
+        <path d="M42 53C46 43 58 40 72 40C88 40 100 44 103 57L109 82C114 99 101 117 73 119C45 118 30 103 35 83Z" fill="#F5EDDE"/>
+        <path d="M61 42L60 34L71 39L78 31L80 40L90 37L85 49L78 45L71 51L67 44Z" fill="#101111"/>
+        <ellipse cx="55" cy="67" rx="4" ry="6" fill="#101111"/>
+        <ellipse cx="89" cy="67" rx="4" ry="6" fill="#101111"/>
+        <path d="M51 83C59 79 86 79 94 83C100 86 104 94 102 103C98 115 47 115 42 103C40 94 45 86 51 83Z" fill="#F5EDDE" stroke="#101111" stroke-width="4"/>
+        <ellipse cx="57" cy="94" rx="3.2" ry="4.5" transform="rotate(-22 57 94)" fill="#101111"/>
+        <ellipse cx="87" cy="94" rx="3.2" ry="4.5" transform="rotate(22 87 94)" fill="#101111"/>
+        <path d="M63 105Q72 109 81 105" fill="none" stroke="#101111" stroke-width="3.5" stroke-linecap="round"/>
+    </g></g></svg>

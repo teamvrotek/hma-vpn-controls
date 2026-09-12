@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HMA VPN Controls settings</title>
+    <link rel="stylesheet" href="property-inspector.css">
+    <script src="property-inspector.js" defer></script>
+</head>
+<body>
+<main class="inspector" aria-label="HMA VPN Controls settings">
+    <header class="header"><span class="header-title"><img src="../imgs/actionIcon.png" srcset="../imgs/actionIcon@2x.png 2x" width="24" height="24" alt=""><span>HMA VPN Controls <span class="version" aria-label="Version 1.0">1.0</span></span></span><span class="preview-badge" id="preview-badge" hidden>Preview</span></header>
+    <section class="preview-row" aria-label="Key preview">
+        <div class="key-frame">
+            <img id="key-preview" width="112" height="112" alt="Live Stream Deck key preview" hidden>
+            <span class="small" id="preview-loading">Connecting…</span>
+        </div>
+        <div class="preview-copy">
+            <div class="eyebrow" id="preview-label">Key preview</div>
+            <div class="preview-title" id="status-title">Checking HMA</div>
+            <div class="preview-description" id="status-location">Waiting for connection status</div>
+            <div class="preview-detail small" id="status-ip"></div>
+        </div>
+    </section>
+    <div class="message" id="message" role="status" hidden></div>
+    <div class="help-actions" id="help-actions" hidden>
+        <button type="button" class="button" id="get-hma" hidden>Get HMA</button>
+        <button type="button" class="button" id="open-hma" hidden>Open HMA</button>
+        <button type="button" class="button" id="open-accessibility" hidden>Accessibility</button>
+        <button type="button" class="button" id="refresh-status" hidden>Check again</button>
+    </div>
+    <section class="panel" aria-label="Key settings">
+        <label class="field" for="mask">Mask</label>
+        <select id="mask" disabled><option value="random">Random</option></select>
+        <label class="check"><input type="checkbox" id="show-flag" checked disabled><span>Show country flag</span></label>
+        <hr>
+        <label class="field" for="long-press">Long press</label>
+        <select id="long-press" aria-describedby="country-support" disabled>
+            <option value="reconnect">Change identity (new IP)</option>
+            <option value="next-country" id="next-country-option" disabled>Next country</option>
+            <option value="none">Do nothing</option>
+        </select>
+        <p class="support-note" id="country-support" hidden></p>
+        <div class="country-settings" id="country-settings" hidden>
+            <label class="field" for="country-codes">Countries in order</label>
+            <input id="country-codes" type="text" placeholder="EE, FI, SE" spellcheck="false" autocapitalize="characters" autocomplete="off" aria-describedby="country-hint country-error" disabled>
+            <p class="hint" id="country-hint">Use country codes separated by commas. The key cycles through HMA's recent locations in this order. Connect to a country in HMA first to add it here.</p>
+            <p class="field-error" id="country-error" role="status" hidden></p>
+            <div class="add-country-row">
+                <select id="available-countries" aria-label="Add a recent country" disabled><option value="">Choose a recent country to add</option></select>
+                <button type="button" class="button" id="add-country" disabled>Add</button>
+            </div>
+            <ol class="country-order" id="country-order" aria-label="Country order"></ol>
+        </div>
+    </section>
+    <footer class="footer">Follow @teamvrotek on <a href="https://github.com/teamvrotek" target="_blank" rel="noopener noreferrer">GitHub</a> or <a href="https://www.instagram.com/teamvrotek/" target="_blank" rel="noopener noreferrer">Instagram</a>.</footer>
+</main>
+</body>
+</html>

@@ -1,0 +1,41 @@
+# Operating systems and editors
+.DS_Store
+.AppleDouble
+Thumbs.db
+.idea/
+.vscode/
+AGENTS.md
+.codex/
+.claude/
+CLAUDE.md
+
+# Dependencies and transient files
+node_modules/
+*.log
+*.tmp
+
+# Local publishing assets and release installers
+/marketplace/
+/Release/
+
+# Compiled native helpers and local verification output
+/com.teamvrotek.hmacontrols.sdPlugin/bin/hma-bridge
+/native/.build/
+/native/build/
+/output/
+
+# Local development and review files
+/docs/verification.md
+/preview/
+/tools/
+/tests/
+/native/README.md
+/native/tests/
+/native/test*.sh
+
+# Generated key samples
+/com.teamvrotek.hmacontrols.sdPlugin/imgs/key-*
+/com.teamvrotek.hmacontrols.sdPlugin/imgs/action.png
+/com.teamvrotek.hmacontrols.sdPlugin/imgs/action@2x.png
+/com.teamvrotek.hmacontrols.sdPlugin/imgs/plugin.png
+/com.teamvrotek.hmacontrols.sdPlugin/imgs/plugin@2x.png

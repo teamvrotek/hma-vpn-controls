@@ -1,0 +1,13 @@
+{
+  "name": "hma-vpn-controls-dev",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "bash build.sh"
+  },
+  "devDependencies": {
+    "@elgato/cli": "1.9.0"
+  },
+  "license": "MIT"
+}
